@@ -1,0 +1,75 @@
+.container{
+  position: relative;
+  display: flex;
+  width: 70vw;
+  height: 70vh;
+  margin: auto;
+  margin-top: 10vh;
+  background-color: #2D2E32;
+  border-radius: 0.5em;
+  border: 1px solid rgb(61, 61, 61);
+  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+
+.infoContainer{
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  padding: 1em 2em;
+  color: white;
+  text-align: start;
+}
+.infoContainer h1, .infoContainer h2, .infoContainer h3, .infoContainer p{
+  margin: 0;
+}
+.container a{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid rgba(255, 73, 73, 0.527);
+  position: absolute;
+  right: -1em;
+  top: -1em;
+  background-color: aliceblue;
+  border-radius: 1em;
+}
+.container svg{
+  font-size: xx-large;
+  color: rgba(255, 73, 73, 0.527);
+}
+.container a:hover{
+  color: white !important;
+  border: 1px solid rgba(65, 9, 9, 0.486);
+  background-color: rgb(224, 149, 149);
+}
+.container svg:hover{
+  color: white;
+}
+
+.container img{
+  width: 50%;
+  border-bottom-left-radius: 0.4em;
+  border-top-left-radius: 0.4em;
+  height: 100%;
+}
+.infoContainer hr{
+  width: 100%;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+.stockPrice{
+  display: flex;
+  margin-top: 1em;
+  gap: 5em;
+}
+
+.stockPrice div span{
+  padding: 0.2em 1em;
+  border-radius: 2em;
+  background-color: #1d1d20;
+}
+.stockPrice div h3{
+  display: inline;
+  margin-right: 5px;
+}

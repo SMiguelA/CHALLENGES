@@ -1,0 +1,36 @@
+.container{
+  height: 40vh;
+  display: flex;
+  text-align: start;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.inputCont{
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+.container h1{
+  font-size: xx-large;
+  text-align: start;
+}
+.container input {
+  width: 40vw;
+  padding: 2vh 2vh 2vh 6vh;
+  outline: none;
+  border: 1px solid #b9b9b9;
+  border-radius: 0.4em;
+  font-size: large;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+  transition: 0.2s ease
+}
+.container input:focus, .container input:hover{
+  border: 1px solid #686868;
+}
+.container svg{
+  color: #686868;
+  position: absolute;
+  left: 0.5vw;
+  font-size: 4vh;
+}
